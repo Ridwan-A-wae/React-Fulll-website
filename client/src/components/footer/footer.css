@@ -1,0 +1,19 @@
+.fCon {
+    background-color: #222222;
+}
+
+.footerCon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+    padding: 10px 18rem;
+    color: white;
+}
+
+.footBot {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-bottom: 1rem;
+}

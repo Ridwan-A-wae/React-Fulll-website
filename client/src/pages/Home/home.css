@@ -1,0 +1,196 @@
+.conServing {
+  background-image: url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  width: 100%;
+  background-size: auto, cover;
+  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+    url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  object-fit: cover;
+  background-position: 0px 0px, 50% 50%;
+  min-height: 550px;
+  max-height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Serving {
+  color: white;
+  display: grid;
+  align-items: center;
+  height: 100%;
+  gap: 5px;
+  padding: 0 15rem;
+}
+
+.headF {
+  font-size: 52px;
+}
+
+.shopMerch {
+  margin-top: 1rem;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all ease 200ms;
+}
+
+.shopMerch:hover {
+  color: black;
+  background-color: white;
+}
+
+.conSupport {
+  min-height: 700px;
+  max-height: 700px;
+  padding: 0 15rem;
+}
+
+.Support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.Sup {
+  font-size: 42px;
+  color: #222;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5rem;
+  flex: 1;
+}
+
+.wrapCard {
+  flex: 1;
+}
+
+.card {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  color: white;
+  background-color: #222;
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.wrapCard {
+  display: grid;
+  gap: 2rem;
+}
+
+.tCard {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: -2.5rem;
+  padding-top: 2rem;
+}
+
+.mCard {
+  font-weight: 700;
+  font-size: 36px;
+  display: grid;
+  justify-content: center;
+  width: 250px;
+}
+
+.mcT {
+  display: flex;
+  justify-content: center;
+}
+
+.conHow {
+  background-image: url(https://images.unsplash.com/photo-1547314283-befb6cc5cf29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+  width: 100%;
+  background-size: auto, cover;
+  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+    url(https://images.unsplash.com/photo-1547314283-befb6cc5cf29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+  object-fit: cover;
+  background-position: 0px 0px, 50% 50%;
+  min-height: 550px;
+  max-height: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.How {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  padding:10rem 15rem;
+  color: white;
+}
+
+.howF {
+    font-size: 42px;
+  font-weight: 700;
+}
+
+.pHow {
+    display: grid;
+}
+
+.readOur {
+    margin-top: 1rem;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 200ms;
+  }
+  
+  .readOur:hover {
+    color: white;
+    background-color: #eb5757;
+  }
+
+  .fCard {
+    z-index: 2;
+  }
+
+  .icon1 {
+    position: absolute;
+    border: 8px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 80%;
+    left: 78%;
+    z-index: 1;
+  }
+  .icon2 {
+    position: absolute;
+    border: 8px solid white;
+    width: 120px;
+    height: 120px;
+    top: 84%;
+    left: 78%;
+    z-index: 1;
+    transform: rotate(200deg);
+  }
+  .icon3 {
+    position: absolute;
+    border: 8px solid white;
+    width: 120px;
+    height: 120px;
+    top: 80%;
+    left: 78%;
+    z-index: 1;
+  }
+
