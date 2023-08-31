@@ -22,7 +22,9 @@ function Footer() {
           </ul>
         </div>
       </div>
-    <span className="footBot">Mode by Ridwan © 2023 </span>
+      <span className="footBot">
+        Made by <div className="ridwan"> Ridwan </div> © 2023{" "}
+      </span>
     </div>
   );
 }

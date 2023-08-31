@@ -23,6 +23,7 @@ a {
     padding: 10px 15px;
     font-weight: 700;
     color: white;
+    cursor: pointer;
 }
 
 .th2 {

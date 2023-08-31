@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     height: 140px;
-    padding: 10px 18rem;
+    padding: 5px 18rem;
     color: white;
 }
 
@@ -16,4 +16,13 @@
     justify-content: center;
     color: white;
     padding-bottom: 1rem;
+    font-size: 14px;
+
+}
+
+.ridwan {
+    color: #eb5757;
+    margin: 0 5px;
+    border-bottom: 2px solid #eb5757;
+    cursor: pointer;
 }

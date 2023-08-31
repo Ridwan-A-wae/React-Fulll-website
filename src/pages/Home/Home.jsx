@@ -94,8 +94,82 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="conOpen"></div>
-        <div className="conShop"></div>
+        <div className="conOpen">
+          <div className="Support">
+            <div className="lOpen">
+              <p className="shopOpen">SHOP PRODUCTS</p>
+              <h2 className="openDate">Open 24/7/365.</h2>
+            </div>
+          </div>
+          <div className="wrapOpenCard">
+            <div className="cardsOpen">
+              <img
+                className="openImage"
+                src="https://images.unsplash.com/photo-1571687949921-1306bfb24b72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              />
+              <div className="conOCard">
+                <div className="oCard">White Tent</div>
+                <div className="price">$ 200.00 USD</div>
+              </div>
+              <div className="btnviewAll">
+                <button className="details">Details</button>
+              </div>
+            </div>
+            <div className="cardsOpen">
+              <img
+                className="openImage"
+                src="https://images.unsplash.com/photo-1623177623442-979c1e42c255?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              />
+              <div className="conOCard">
+                <div className="oCard">Table</div>
+                <div className="price">$ 400.00 USD</div>
+              </div>
+              <div className="btnviewAll">
+                <button className="details">Details</button>
+              </div>{" "}
+            </div>
+            <div className="cardsOpen">
+              <img
+                className="openImage"
+                src="https://images.unsplash.com/photo-1612372606404-0ab33e7187ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80"
+              />
+              <div className="conOCard">
+                <div className="oCard">Chair</div>
+                <div className="price">$ 150.00 USD</div>
+              </div>
+              <div className="btnviewAll">
+                <button className="details">Details</button>
+              </div>{" "}
+            </div>
+          </div>
+        </div>
+        <div className="btnviewAll">
+          <button className="viewAll">View All Products</button>
+        </div>
+        <div className="conShop">
+          <img src="https://images.unsplash.com/photo-1456315138460-858d1089ddba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="" className="local" />
+          <div className="infoLocal">
+            <div className="hLocal">Shop Local.</div>
+            <div className="pLocal">We know that during COVID-19, a lot of folks around the city and state are feeling uneasy about the future - we’re not sure what the future holds either.
+            <br />
+            <br />
+            That said: we know that we love making sure you have the gear you need for your adventures, and we’re going to keep doing that - with our team - until the city tells us we can’t.
+            <br />
+            <br />
+            But as long as folks like yourself support small businesses around the city, then we’ll be here — every day, making sure your orders arrive on time.
+            <br />
+            <br />
+            ------
+            <br />
+            <br />
+            <div className="nameLocal">
+            Jane & John Doe
+            <br />
+            Acme Outdoors
+            </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

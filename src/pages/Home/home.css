@@ -194,3 +194,140 @@
     z-index: 1;
   }
 
+  .wrapOpenCard {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .conOpen {
+    display: grid;
+    padding: 0 15rem;
+  }
+
+  .shopOpen {
+    font-size: 24px;
+  }
+
+  .openDate {
+    font-size: 42px;
+  }
+
+  .cardsOpen {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .openImage {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .conOCard {
+    display: grid;
+  }
+
+  .oCard {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+  }
+
+  .details {
+    margin-top: 1rem;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #eb5757;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 200ms;
+    margin-bottom: 2rem;
+  }
+
+  .details:hover {
+    background-color: #222;
+  }
+
+  .viewAll {
+    width: 250px;
+    height: 40px;
+    font-weight: 700;
+    border: none;
+    background-color: #222;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all ease 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+
+  }
+
+  .viewAll:hover {
+    background-color: #eb5757;
+  }
+
+  .btnviewAll {
+    display: flex;
+    justify-content: center;
+  }
+
+  .local {
+    object-fit: cover;
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    z-index: 5;
+    top: 319%;
+    left: 25%;
+  }
+
+  .conShop {
+    display: flex;
+    justify-content: center;
+  }
+
+  .infoLocal {
+    width: 300px;
+    height: 500px;
+    background-color: #222;
+    color: white;
+    display: grid;
+    justify-content: end;
+    padding-left: 20rem;
+    padding-right: 4rem;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+
+  .hLocal {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 2rem;
+  }
+
+  .pLocal {
+    font-size: 14px;
+  }
+
+  .nameLocal {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -5px;
+  }
+
+
+
