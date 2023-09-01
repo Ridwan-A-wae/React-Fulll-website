@@ -1,0 +1,175 @@
+.conAbout {
+  background-image: url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  width: 1254px;
+  background-size: auto, cover;
+  background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+    url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  object-fit: cover;
+  background-position: 0px 0px, 50% 50%;
+  min-height: 550px;
+  max-height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.conAbout {
+  color: white;
+  display: grid;
+  align-items: center;
+  height: 100%;
+  gap: 5px;
+  padding: 0 10rem;
+}
+
+.headA {
+  font-size: 52px;
+}
+
+.whyACME {
+  display: grid;
+  justify-content: center;
+  padding: 3rem 10rem;
+}
+
+.theBest {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.whyP,
+.loremWhy {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.weTheBest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin: 0.8rem 0;
+}
+
+.lifeTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  flex: 1;
+}
+
+.logoLife {
+    font-size: 50px;
+}
+
+.hLife {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0.8rem 0;
+}
+
+.meet {
+    padding-left: 18rem;
+    margin-bottom: 10rem;
+}
+
+.meetCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.meetImg {
+    width: 500px;
+    position: absolute;
+    left: -12%;
+    border-radius: 10px;
+}
+
+.meetTheOwners {
+    width: 550px ;
+    height: 750px;
+    background-color: #222;
+    color: white;
+    padding-left: 15rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    border-radius: 10px;
+
+}
+
+.johnDoe {
+    display: flex;
+    justify-content: center;
+    padding: 0 10rem;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.johnCon {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.johnImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.h2john {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.loremWhy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conNeed {
+    background-image: url(https://images.unsplash.com/photo-1495370080808-424fd642b358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    width: 100%;
+    background-size: auto, cover;
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+      url(https://images.unsplash.com/photo-1495370080808-424fd642b358?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    object-fit: cover;
+    background-position: 0px 0px, 50% 50%;
+    min-height: 550px;
+    max-height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  .secondNeedCon {
+    padding: 0 10rem;
+    display: grid;
+  }
+  
+  .pNeed {
+    font-size: 22px;
+  }

@@ -9,9 +9,9 @@ function Home() {
           <div className="Serving">
             <h1 className="headF">Serving you</h1>
             <h1 className="headF">since 1989.</h1>
-            <p>Acme Outdoors is an outdoor and adventure</p>
-            <p>shop located in the Boathouse District in</p>
-            <p>Oklahoma City.</p>
+            <p className="pNeed">Acme Outdoors is an outdoor and adventure</p>
+            <p className="pNeed">shop located in the Boathouse District in</p>
+            <p className="pNeed">Oklahoma City.</p>
             <div className="btnser">
               <button className="shopMerch">Shop Merch</button>
             </div>
@@ -85,9 +85,9 @@ function Home() {
             <h1 className="howF">How we're keeping you</h1>
             <h1 className="howF">safe during COVID-19</h1>
             <div className="pHow">
-              <p>As an outdoor shop, we’ve taken precautionary</p>
-              <p>measures to ensure the safety of all our</p>
-              <p>customers and team members.</p>
+              <p className="pNeed">As an outdoor shop, we’ve taken precautionary</p>
+              <p className="pNeed">measures to ensure the safety of all our</p>
+              <p className="pNeed">customers and team members.</p>
             </div>
             <div className="btnHow">
               <button className="readOur">Read Our Statement</button>
@@ -147,26 +147,37 @@ function Home() {
           <button className="viewAll">View All Products</button>
         </div>
         <div className="conShop">
-          <img src="https://images.unsplash.com/photo-1456315138460-858d1089ddba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="" className="local" />
+          <img
+            className="local"
+            src="https://images.unsplash.com/photo-1456315138460-858d1089ddba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            alt=""
+          />
           <div className="infoLocal">
             <div className="hLocal">Shop Local.</div>
-            <div className="pLocal">We know that during COVID-19, a lot of folks around the city and state are feeling uneasy about the future - we’re not sure what the future holds either.
-            <br />
-            <br />
-            That said: we know that we love making sure you have the gear you need for your adventures, and we’re going to keep doing that - with our team - until the city tells us we can’t.
-            <br />
-            <br />
-            But as long as folks like yourself support small businesses around the city, then we’ll be here — every day, making sure your orders arrive on time.
-            <br />
-            <br />
-            ------
-            <br />
-            <br />
-            <div className="nameLocal">
-            Jane & John Doe
-            <br />
-            Acme Outdoors
-            </div>
+            <div className="pLocal">
+              We know that during COVID-19, a lot of folks around the city and
+              state are feeling uneasy about the future - we’re not sure what
+              the future holds either.
+              <br />
+              <br />
+              That said: we know that we love making sure you have the gear you
+              need for your adventures, and we’re going to keep doing that -
+              with our team - until the city tells us we can’t.
+              <br />
+              <br />
+              But as long as folks like yourself support small businesses around
+              the city, then we’ll be here — every day, making sure your orders
+              arrive on time.
+              <br />
+              <br />
+              ------
+              <br />
+              <br />
+              <div className="nameLocal">
+                Jane & John Doe
+                <br />
+                Acme Outdoors
+              </div>
             </div>
           </div>
         </div>
