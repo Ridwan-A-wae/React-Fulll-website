@@ -1,6 +1,5 @@
 .conAbout {
   background-image: url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
-  width: 1254px;
   background-size: auto, cover;
   background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
     url(https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
@@ -19,7 +18,7 @@
   align-items: center;
   height: 100%;
   gap: 5px;
-  padding: 0 10rem;
+  padding: 0 12rem;
 }
 
 .headA {
@@ -29,7 +28,7 @@
 .whyACME {
   display: grid;
   justify-content: center;
-  padding: 3rem 10rem;
+  padding: 3rem 12rem;
 }
 
 .theBest {
@@ -45,6 +44,10 @@
   justify-content: center;
   font-weight: 400;
   font-size: 18px;
+}
+
+.pLife {
+  font-size: 15px;
 }
 
 .weTheBest {
@@ -101,7 +104,7 @@
     height: 750px;
     background-color: #222;
     color: white;
-    padding-left: 15rem;
+    padding-left: 12rem;
     padding-right: 5rem;
     padding-top: 5rem;
     border-radius: 10px;
@@ -111,7 +114,7 @@
 .johnDoe {
     display: flex;
     justify-content: center;
-    padding: 0 10rem;
+    padding: 0 12rem;
     align-items: center;
     gap: 2rem;
     margin-bottom: 5rem;
@@ -166,7 +169,7 @@
   }
 
   .secondNeedCon {
-    padding: 0 10rem;
+    padding: 0 12rem;
     display: grid;
   }
   

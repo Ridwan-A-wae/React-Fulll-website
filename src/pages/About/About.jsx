@@ -33,30 +33,30 @@ function About() {
           <div className="cardLife">
             <div className="logoLife">✅</div>
             <h3 className="hLife">Lifetime Warranty</h3>
-            <p className="loremWhy">All our products — whether we</p>
-            <p className="loremWhy">make them or not — are backed</p>
-            <p className="loremWhy">by our lifetime warranty.</p>
+            <p className="pLife">All our products — whether we</p>
+            <p className="pLife">make them or not — are backed</p>
+            <p className="pLife">by our lifetime warranty.</p>
           </div>
           <div className="cardLife">
             <div className="logoLife">🛒</div>
             <h3 className="hLife">Shopping Experience</h3>
-            <p className="">All our products — whether we</p>
-            <p>make them or not — are backed</p>
-            <p>by our lifetime warranty.</p>
+            <p className="pLife">All our products — whether we</p>
+            <p className="pLife">make them or not — are backed</p>
+            <p className="pLife">by our lifetime warranty.</p>
           </div>
           <div className="cardLife">
             <div className="logoLife">🚙</div>
             <h3 className="hLife">On-time Delivery</h3>
-            <p>All our products — whether we</p>
-            <p>make them or not — are backed</p>
-            <p>by our lifetime warranty.</p>
+            <p className="pLife">All our products — whether we</p>
+            <p className="pLife">make them or not — are backed</p>
+            <p className="pLife">by our lifetime warranty.</p>
           </div>
           <div className="cardLife">
             <div className="logoLife">💬</div>
             <h3 className="hLife">Best in Class Service</h3>
-            <p>All our products — whether we</p>
-            <p>make them or not — are backed</p>
-            <p>by our lifetime warranty.</p>
+            <p className="pLife">All our products — whether we</p>
+            <p className="pLife">make them or not — are backed</p>
+            <p className="pLife">by our lifetime warranty.</p>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div>
+    <div className="navSticky">
       <div className="topCon">
         <button className="tBTN">Announcement</button>
         <h2 className="th2">How we're responding to COVID-19</h2>

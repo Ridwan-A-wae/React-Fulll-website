@@ -1,0 +1,60 @@
+.itemCardsShop {
+    display: flex;
+    flex: 1;
+    gap: 2.5rem;
+}
+
+.itemCardShop {
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgItemPicCardShop {
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.midItemCard {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnItemShop {
+    margin-top: 1rem;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #eb5757;
+    border: none;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 200ms;
+    margin-bottom: 2rem;
+  }
+
+  .btnItemShop:hover {
+    background-color: #222;
+  }
+
+  .itemNameShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .itemPriceShop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
