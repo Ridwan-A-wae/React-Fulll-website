@@ -2,6 +2,7 @@
     display: flex;
     flex: 1;
     gap: 2.5rem;
+    width: 300px;
 }
 
 .itemCardShop {
@@ -10,6 +11,12 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.categoryButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imgItemPicCardShop {

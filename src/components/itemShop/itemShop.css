@@ -1,5 +1,5 @@
 .itemCardsShop {
-    display: flex;
+    display: grid;
     flex: 1;
     gap: 2.5rem;
 }
