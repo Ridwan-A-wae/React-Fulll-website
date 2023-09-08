@@ -1,0 +1,88 @@
+.DonateCon {
+    background-image: url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    width: 100%;
+    background-size: auto, cover;
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),
+      url(https://images.unsplash.com/photo-1533610067042-1cee3c403282?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    object-fit: cover;
+    background-position: 0px 0px, 50% 50%;
+    min-height: 550px;
+    max-height: 800px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .infoCondo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .headDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  .pNeedDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondHeadDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .pNeedDo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .donateButtonCon {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .childDonateButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;   
+    border: 2px solid black; 
+  }
+
+  .buttonConDo {
+    margin-top: 1rem;
+    width: 500px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #eb5757;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all ease 200ms;
+    margin-bottom: 2rem;
+
+  }
+
+  .buttonConDo:hover {
+    background-color: #222;
+    color: white;
+  }

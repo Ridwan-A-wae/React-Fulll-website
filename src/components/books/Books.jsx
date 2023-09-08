@@ -73,7 +73,7 @@ function Books() {
               alt=""
             />
             <div className="midItemCard">
-              <h2 className="itemNameShop">Books 3</h2>
+              <h2 className="itemNameShop">Books </h2>
               <p className="itemPriceShop">$ 10.00 USD</p>
               <div className="btnConItemShop">
                 <button className="btnItemShop">Detail</button>
@@ -87,3 +87,6 @@ function Books() {
 }
 
 export default Books;
+      
+
+
