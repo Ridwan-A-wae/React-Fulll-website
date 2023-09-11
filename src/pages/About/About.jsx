@@ -10,7 +10,9 @@ function About() {
           <h1 className="headA">Awaits</h1>
           <p className="pNeed">Acme Outdoors has everything you need to</p>
           <p className="pNeed">help you get started today. Check out our</p>
-          <p className="pNeed">wonderful collection of gear that will make your</p>
+          <p className="pNeed">
+            wonderful collection of gear that will make your
+          </p>
           <p className="pNeed">next adventure complete.</p>
           <div className="btnrA">
             <button className="shopMerch">Shop Merch</button>
